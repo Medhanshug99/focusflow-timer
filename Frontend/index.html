@@ -1,1 +1,43 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FocusFlow</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="Favicon.jpg" />
+
+</head>
+<body>
+  <div class="app">
+    <h1>FocusFlow</h1>
+    <p class="subtitle">Calm focus for deep study</p>
+
+    <div class="card">
+      <select id="duration">
+        <option value="25">25 min</option>
+        <option value="55">55 min</option>
+        <option value="85">85 min</option>
+        <option value="115">115 min</option>
+        <option value="145">145 min</option>
+        <option value="175">175 min</option>
+        <option value="205">205 min</option>
+        <option value="235">235 min</option>
+        <option value="265">265 min</option>
+        <option value="295">295 min</option>
+      </select>
+
+      <div id="timer" class="timer">25:00</div>
+
+      <div class="controls">
+        <button id="start">Start</button>
+        <button id="pause">Pause</button>
+        <button id="reset" class="secondary">Reset</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
